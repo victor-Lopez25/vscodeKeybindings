@@ -1,0 +1,17 @@
+[
+  {
+    "key": "alt+m",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        { "command": "workbench.action.files.saveAll" },
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "./build.sh\u000D"
+          }
+        }
+      ]
+    }
+  }
+]
