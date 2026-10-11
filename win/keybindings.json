@@ -8,7 +8,7 @@
         {
           "command": "workbench.action.terminal.sendSequence",
           "args": {
-            "text": "./build.bat\u000D"
+            "text": "build\u000D"
           }
         }
       ]
